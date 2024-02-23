@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+   android:background="#7CBFDD"
+    android:layout_margin="9dp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/carditem">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="95dp"
+            android:id="@+id/newsimage"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            app:shapeAppearanceOverlay="@style/Softcorner">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+             android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Bumrah Shandaar...': AB de Villiers' special Hindi message for newly-crowned world no.1 Test bowler"
+            android:id="@+id/tvheading">
+
+        </TextView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
